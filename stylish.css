@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root{
+    background-color: hsl(47, 88%, 63%);
+    --grey-color1:hsl(0,0%,42%);
+    --grey-color2:hsl(0,0%,7%);
+}
+
+html{
+    font-family: 'figtree','sens-serif';
+    font-size: 16px;
+    background-color:hsl(47, 88%, 63%) ;
+}
+
+.card{
+   margin: 100px;
+   background-color: aliceblue;
+   border: 1px solid var(--grey-color2);
+   max-width: 300px;
+   display: block;
+   border-radius: 15px;
+   box-shadow: 7px 7px 0 0 var(--grey-color2);
+}
+.card article{
+    display: block;
+    margin:20px auto ;
+    border-radius: 5px;
+    background-color: hsl(47, 88%, 63%);
+}
+.card h5{
+    font-weight: 500;
+    margin: 10px 0 15px;
+}
+.card h3{
+    color: var(--grey-color2);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.card h3:hover{
+    color:  hsl(47, 88%, 63%);
+}
+.card p {
+    color:var(--grey-color1);
+    margin: 10px o 15px;
+}
+.card .avatar{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+.card .avatar img {
+  max-width: 50px; /* Or whatever size you want */
+  border-radius: 50%; /* Optional: makes it circular */
+  margin-right: 10px;
+}
+
+img{
+    width: 100%;
+}
